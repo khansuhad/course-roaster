@@ -12,7 +12,7 @@ function App() {
     const handleSelectedCard = (blog) => {
       const have = selectedCard.find(item => item.id === blog.id);
       if(have){
-        toast.error(`Already added ${blog.course_name}`, {
+        toast.error(`Already added ${blog.course_name} course`, {
           position: "top-right",
           autoClose: 2000,
           hideProgressBar: false,
@@ -32,7 +32,7 @@ function App() {
           setRemaining(remaining - blog.credit_hour )
         }
         else{
-          toast.error(`Your Credit remaining ${remaining}`, {
+          toast.error(`Your Credit ${remaining} hour remaining `, {
             position: "top-right",
             autoClose: 2000,
             hideProgressBar: false,
