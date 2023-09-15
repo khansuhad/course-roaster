@@ -29,7 +29,17 @@ function App() {
         if(20 >= nowCreadit){
           setSelectedCard([...selectedCard , blog]);
           setCredit(credit + blog.credit_hour);
-          setRemaining(remaining - blog.credit_hour )
+          setRemaining(remaining - blog.credit_hour );
+          toast.success(`Added successfully `, {
+            position: "top-right",
+            autoClose: 2000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "colored",
+            });
         }
         else{
           toast.error(`Your Credit ${remaining} hour remaining `, {
