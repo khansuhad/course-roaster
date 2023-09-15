@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './App.css'
 import SelectedCard from './Components/SelectedCard/SelectedCard'
 import Blogs from './Components/blogs/blogs'
@@ -10,7 +12,16 @@ function App() {
     const handleSelectedCard = (blog) => {
       const have = selectedCard.find(item => item.id === blog.id);
       if(have){
-        alert("alread add");
+        toast.error(`Already added ${blog.course_name}`, {
+          position: "top-right",
+          autoClose: 2000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "colored",
+          });
       }
       else{
         const nowCreadit = credit + blog.credit_hour ;
@@ -21,7 +32,17 @@ function App() {
           setRemaining(remaining - blog.credit_hour )
         }
         else{
-          alert("Creadit Finished")
+          toast.error(`Your Credit remaining ${remaining}`, {
+            position: "top-right",
+            autoClose: 2000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "colored",
+            });
+         
         }
         
       }
@@ -36,7 +57,7 @@ function App() {
       <Blogs handleSelectedCard={handleSelectedCard} ></Blogs>
       <SelectedCard selectedCard={selectedCard} credit={credit} remaining={remaining} ></SelectedCard>
       </div>
-    
+      <ToastContainer />
     </div>
   )
 }
