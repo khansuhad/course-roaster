@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "course_img": "https://i.ibb.co/QDjP11B/Rectangle-2-2.png",
+    "course_name": "Intro to Programming",
+    "credit_hour": 3,
+    "course_price": 299.99,
+    "course_description": "Master the basics of coding and programming in this comprehensive course."
+  },
+  {
+    "id": 2,
+    "course_img": "https://i.ibb.co/Ns7bx8k/Blog-2-2.png",
+    "course_name": "Web Dev Bootcamp",
+    "credit_hour": 6,
+    "course_price": 599.99,
+    "course_description": "Learn HTML, CSS, and JavaScript to build dynamic and responsive websites."
+  },
+  {
+    "id": 3,
+    "course_img": "course3.jpg",
+    "course_name": "https://i.ibb.co/GngfyVM/Rectangle-3.png",
+    "credit_hour": 4,
+    "course_price": 499.99,
+    "course_description": "Dive into data analysis, machine learning, and statistical modeling techniques."
+  },
+  {
+    "id": 4,
+    "course_img": "https://i.ibb.co/rs59CQg/istockphoto-1195696110-612x612.jpg",
+    "course_name": "Mobile App Development",
+    "credit_hour": 5,
+    "course_price": 699.99,
+    "course_description": "Create mobile apps for Android and iOS platforms using industry-standard tools."
+  },
+  {
+    "id": 5,
+    "course_img": "https://i.ibb.co/crSjrxX/Database-Management-System.jpg",
+    "course_name": "Database Management",
+    "credit_hour": 3,
+    "course_price": 349.99,
+    "course_description": "Master SQL and design efficient databases for applications and systems."
+  },
+  {
+    "id": 6,
+    "course_img": "https://i.ibb.co/zPcVGMV/photo-1626785774573-4b799315345d.jpg",
+    "course_name": "Graphic Design Masterclass",
+    "credit_hour": 4,
+    "course_price": 449.99,
+    "course_description": "Unleash your creativity with design software to produce stunning visuals and graphics."
+  },
+  {
+    "id": 7,
+    "course_img": "https://i.ibb.co/7pJy0Dk/istockphoto-1443560890-612x612.jpg",
+    "course_name": "Digital Marketing Essentials",
+    "credit_hour": 3,
+    "course_price": 299.99,
+    "course_description": "Learn key strategies for effective online promotion and marketing campaigns."
+  },
+  {
+    "id": 8,
+    "course_img": "https://i.ibb.co/fvBFC0G/360-F-205932110-IWi-Dmket-VT703m-NPZ8e-Sn76-Sa25-Qo-SYw.jpg",
+    "course_name": "Ethical Hacking & Cybersecurity",
+    "credit_hour": 5,
+    "course_price": 599.99,
+    "course_description": "Enhance security skills to safeguard networks and systems against cyber threats."
+  },
+  {
+    "id": 9,
+    "course_img": "https://i.ibb.co/FgFN0gJ/ai-technology-microchip-background-digital-transformation-concept.jpg",
+    "course_name": "AI Foundations",
+    "credit_hour": 4,
+    "course_price": 549.99,
+    "course_description": "Discover the core principles, algorithms, and applications of Artificial Intelligence."
+  }
+]
