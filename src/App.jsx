@@ -32,7 +32,7 @@ function App() {
     <div className='bg-[#F3F3F3]'>
     
       <h1 className='text-center font-bold text-black text-3xl py-10'>Course Registration</h1>
-      <div className='flex gap-8 mx-auto w-[80%]'>
+      <div className='lg:flex gap-5 p-5 md:px-[8%]'>
       <Blogs handleSelectedCard={handleSelectedCard} ></Blogs>
       <SelectedCard selectedCard={selectedCard} credit={credit} remaining={remaining} ></SelectedCard>
       </div>
