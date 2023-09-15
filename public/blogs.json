@@ -17,8 +17,8 @@
   },
   {
     "id": 3,
-    "course_img": "course3.jpg",
-    "course_name": "https://i.ibb.co/GngfyVM/Rectangle-3.png",
+    "course_img": "https://i.ibb.co/8957RxG/Fundamentals-of-Data-Analytics.jpg",
+    "course_name": "Data Science Fundamentals",
     "credit_hour": 4,
     "course_price": 499.99,
     "course_description": "Dive into data analysis, machine learning, and statistical modeling techniques."
