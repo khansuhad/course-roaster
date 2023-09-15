@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import Blog from "../Blog/Blog";
 
 
-const Blogs = () => {
+const Blogs = ({handleSelectedCard }) => {
     const [blogs, setBlogs] =useState([]);
 
     useEffect(() => {
@@ -13,10 +13,10 @@ const Blogs = () => {
     },[]);
   
     return (
-        <div>
-            <h1>hi im suhad</h1>
+        <div className="grid grid-cols-3 gap-5">
+            
             {
-                blogs.map(blog => <Blog key={blog.id} blog={blog}></Blog>)
+                blogs.map(blog => <Blog key={blog.id} blog={blog} handleSelectedCard={handleSelectedCard}></Blog>)
             }
         </div>
     );
